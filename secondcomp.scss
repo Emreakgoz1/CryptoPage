@@ -1,0 +1,116 @@
+.secondcomp {
+
+    & .components {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 92px;
+
+        & .leftcontent {
+
+            & .title {
+                color: white;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+                margin-bottom: 10px;
+            }
+
+            & .description {
+                color: white;
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }
+        }
+
+        & .rightcontent {
+
+            & .phones {
+                width: 202.64px;
+                height: 215.43px;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        & .storecontent {
+
+            & .appstore {
+                background-color: transparent;
+                border: none;
+
+                & .appstoreimg {
+                    width: 100.72px;
+                    height: 35px;
+                }
+            }
+
+            & .googleplay {
+                background-color: transparent;
+                border: none;
+
+                & .googleimg {
+                    width: 100.72px;
+                    height: 35px;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .secondcomp {
+        position: relative;
+
+        & .components {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 86px;
+            margin-left: 135px;
+            margin-right: 141px;
+
+            & .leftcontent {
+                display: flex;
+                flex-direction: column;
+                text-align: start;
+
+                & .title {
+
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 48px;
+                    margin-bottom: 14px;
+                }
+
+                & .description {
+                    font-size: 17px;
+                    line-height: 28px;
+                    margin-bottom: 0px;
+
+                }
+            }
+
+            & .rightcontent {
+                & .phones {
+                    width: 456.37px;
+                    height: 485.19px;
+                    margin: 0px;
+                }
+            }
+        }
+
+        & .storecontent {
+            display: flex;
+            align-self: flex-start;
+            position: absolute;
+            bottom: 30px;
+            left: 130px
+        }
+    }
+}

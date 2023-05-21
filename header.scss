@@ -88,8 +88,9 @@
     & .leftcontent {
         display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
+        justify-content: center;
+        
 
         & .firstdescription {
             color: white;
@@ -111,6 +112,7 @@
             background: #EB5757;
             border-radius: 50px;
             border: none;
+            align-self: center;
 
             & .btntext {
                 text-align: center;
@@ -197,6 +199,8 @@
                     background: #EB5757;
                     border-radius: 50px;
                     border: none;
+                    display: flex;
+                    align-self: start;
 
                     & .btntext {
 
