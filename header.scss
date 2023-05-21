@@ -1,0 +1,70 @@
+.headercomponents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 16px;
+    background-color: #1b004e;
+
+    & .leftcomponent {
+        display: flex;
+        align-items: center;
+
+        & .logo {
+            width: 26.5px;
+            height: 30px;
+        }
+
+        & .logotext {
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+
+    & .middlecomponent {
+        & .navbar-toggler-icon {
+            background-image: url('images/icons8-menu-50.png');
+
+        }
+
+        & .nav-item .text {
+            color: white;
+            font-size: 17px;
+            line-height: 24px;
+        }
+    }
+
+    & .rightcomponent {
+        display: none;
+
+        & .contentbutton {
+
+            border: 2px solid #EB5757;
+            background-color: transparent;
+            border-radius: 50px;
+            padding: 15px 30px;
+            & .buttontext {
+                
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 17px;
+                color: white;
+                text-align: center;
+                
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .headercomponents{
+        background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+    .headercomponents .rightcomponent {
+        display: block;
+    }
+}
