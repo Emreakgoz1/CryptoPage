@@ -12,8 +12,7 @@ section.secondcomp {
         flex-direction: column;
         align-items: center;
         text-align: center;
-       
-
+        
         & .leftcontent {
 
             & .title {
@@ -43,9 +42,7 @@ section.secondcomp {
         }
 
         & .storecontent {
-            position: absolute;
-            bottom: 90px;
-            left: 150px;
+           
             & .appstore {
                 background-color: transparent;
                 border: none;
@@ -117,8 +114,8 @@ section.secondcomp {
             display: flex;
             align-self: flex-start;
             position: absolute;
-            bottom: 30px;
-            left: 130px
+            bottom: 90px;
+            left: 150px;
         }
     }
 }
