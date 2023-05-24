@@ -111,8 +111,9 @@ button {
 
         & .bottomcontent {
             & .line {
-                margin-left: 50px;
-                width: 95%;
+                margin-left: 90px;
+               
+                width: 90%;
             }
         }
 
@@ -128,6 +129,10 @@ button {
             & .borders:hover {
 
                 background: #EB5757;
+               & .iconsimg
+               {
+                color: white;
+               }
             }
 
             & .bottomtitle {
