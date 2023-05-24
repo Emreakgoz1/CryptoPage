@@ -11,7 +11,7 @@ button {
 
 .fourthcomp {
     background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
-   
+
 
     & .textcontent {
         display: flex;
@@ -56,7 +56,7 @@ button {
             justify-content: center;
 
             & .borders {
-                
+
                 background-color: transparent;
                 border-radius: 10px;
                 border: 1px solid #616161;
@@ -108,12 +108,14 @@ button {
             flex-direction: row;
             justify-content: space-between;
         }
-        & .bottomcontent{
-            & .line{
+
+        & .bottomcontent {
+            & .line {
                 margin-left: 50px;
                 width: 95%;
             }
         }
+
         & .footorbottom {
             padding-left: 136px;
             padding-right: 133.95px;
@@ -122,6 +124,11 @@ button {
             justify-content: space-between;
             align-items: center;
             text-align: center;
+
+            & .borders:hover {
+
+                background: #EB5757;
+            }
 
             & .bottomtitle {
                 padding: 0px;
