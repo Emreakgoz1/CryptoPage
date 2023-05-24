@@ -1,13 +1,18 @@
+section.secondcomp {
+    margin-top: -87px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 92px;
+  }
+  
 .secondcomp {
-
+    background: #1B004E;
     & .components {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 92px;
+       
 
         & .leftcontent {
 
@@ -38,14 +43,17 @@
         }
 
         & .storecontent {
-
+            position: absolute;
+            bottom: 90px;
+            left: 150px;
             & .appstore {
                 background-color: transparent;
                 border: none;
-
+                
                 & .appstoreimg {
                     width: 100.72px;
                     height: 35px;
+                    margin-right: 15px;
                 }
             }
 
